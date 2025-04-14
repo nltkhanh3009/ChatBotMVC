@@ -1,0 +1,342 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KLTN\\demo\\ChatBotGemini\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\models\\gemini\\geminirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\models\\gemini\\geminirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\models\\gemini\\geminiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\models\\gemini\\geminiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\views\\gemini\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\views\\gemini\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\services\\geminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\services\\geminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\geminioptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\geminioptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\controllers\\chatapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\controllers\\chatapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\wwwroot\\css\\chatbox.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\wwwroot\\css\\chatbox.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\wwwroot\\js\\chatbox.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\wwwroot\\js\\chatbox.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\chatbotgemini.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\chatbotgemini.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|d:\\kltn\\demo\\chatbotgemini\\chatbotgemini\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8479D511-B7AF-4162-BCA4-D1CF0BF10C94}|ChatBotGemini\\ChatBotGemini.csproj|solutionrelative:chatbotgemini\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ChatBotGemini\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ChatBotGemini\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T07:58:42.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ChatBotGemini\\appsettings.Development.json",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\appsettings.Development.json",
+              "RelativeToolTip": "ChatBotGemini\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-11T07:26:42.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ChatBotGemini\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ChatBotGemini\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T07:22:32.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ChatBotGemini\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ChatBotGemini\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T07:22:31.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Views\\Gemini\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChatBotGemini\\Views\\Gemini\\Index.cshtml",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Views\\Gemini\\Index.cshtml",
+              "RelativeToolTip": "ChatBotGemini\\Views\\Gemini\\Index.cshtml",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAIwFkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T03:18:21.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GeminiService.cs",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Services\\GeminiService.cs",
+              "RelativeDocumentMoniker": "ChatBotGemini\\Services\\GeminiService.cs",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Services\\GeminiService.cs",
+              "RelativeToolTip": "ChatBotGemini\\Services\\GeminiService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T08:28:48.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ChatBotGemini\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ChatBotGemini\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADgAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T03:19:32.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChatBotGemini\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ChatBotGemini\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T07:09:45.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "chatbox.css",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\wwwroot\\css\\chatbox.css",
+              "RelativeDocumentMoniker": "ChatBotGemini\\wwwroot\\css\\chatbox.css",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\wwwroot\\css\\chatbox.css",
+              "RelativeToolTip": "ChatBotGemini\\wwwroot\\css\\chatbox.css",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAYwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-10T09:23:15.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChatApiController.cs",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Controllers\\ChatApiController.cs",
+              "RelativeDocumentMoniker": "ChatBotGemini\\Controllers\\ChatApiController.cs",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Controllers\\ChatApiController.cs",
+              "RelativeToolTip": "ChatBotGemini\\Controllers\\ChatApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T09:09:52.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GeminiResponse.cs",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Models\\Gemini\\GeminiResponse.cs",
+              "RelativeDocumentMoniker": "ChatBotGemini\\Models\\Gemini\\GeminiResponse.cs",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Models\\Gemini\\GeminiResponse.cs",
+              "RelativeToolTip": "ChatBotGemini\\Models\\Gemini\\GeminiResponse.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T09:08:28.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GeminiRequest.cs",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Models\\Gemini\\GeminiRequest.cs",
+              "RelativeDocumentMoniker": "ChatBotGemini\\Models\\Gemini\\GeminiRequest.cs",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Models\\Gemini\\GeminiRequest.cs",
+              "RelativeToolTip": "ChatBotGemini\\Models\\Gemini\\GeminiRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T09:07:22.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GeminiOptions.cs",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\GeminiOptions.cs",
+              "RelativeDocumentMoniker": "ChatBotGemini\\GeminiOptions.cs",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\GeminiOptions.cs",
+              "RelativeToolTip": "ChatBotGemini\\GeminiOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T09:55:07.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\appsettings.json",
+              "RelativeDocumentMoniker": "ChatBotGemini\\appsettings.json",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\appsettings.json",
+              "RelativeToolTip": "ChatBotGemini\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-10T03:10:36.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Program.cs",
+              "RelativeDocumentMoniker": "ChatBotGemini\\Program.cs",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Program.cs",
+              "RelativeToolTip": "ChatBotGemini\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T03:33:43.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "chatbox.js",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\wwwroot\\js\\chatbox.js",
+              "RelativeDocumentMoniker": "ChatBotGemini\\wwwroot\\js\\chatbox.js",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\wwwroot\\js\\chatbox.js",
+              "RelativeToolTip": "ChatBotGemini\\wwwroot\\js\\chatbox.js",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAmwHAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-10T09:25:03.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChatBotGemini",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\ChatBotGemini.csproj",
+              "RelativeDocumentMoniker": "ChatBotGemini\\ChatBotGemini.csproj",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\ChatBotGemini.csproj",
+              "RelativeToolTip": "ChatBotGemini\\ChatBotGemini.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-10T08:28:04.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ChatBotGemini\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ChatBotGemini\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T08:09:28.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ChatBotGemini\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\KLTN\\demo\\ChatBotGemini\\ChatBotGemini\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ChatBotGemini\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T03:20:07.018Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

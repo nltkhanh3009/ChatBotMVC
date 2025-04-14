@@ -1,0 +1,160 @@
+﻿@{
+    ViewData["Title"] = "Gemini Chat";
+}
+
+<style>
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #f0f2f5;
+    }
+
+    .chat-wrapper {
+        max-width: 720px;
+        margin: 30px auto;
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        overflow: hidden;
+    }
+
+    .chat-box {
+        flex: 1;
+        padding: 20px;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .message {
+        display: flex;
+        margin-bottom: 15px;
+        max-width: 85%;
+    }
+
+        .message.user {
+            align-self: flex-end;
+            flex-direction: row-reverse;
+        }
+
+        .message.ai {
+            align-self: flex-start;
+        }
+
+        .message .avatar {
+            width: 40px;
+            height: 40px;
+            background: #ccc;
+            border-radius: 50%;
+            margin: 0 10px;
+        }
+
+        .message .text {
+            background: #e4e6eb;
+            padding: 12px 15px;
+            border-radius: 15px;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        .message.user .text {
+            background: #0084ff;
+            color: white;
+        }
+
+    .chat-input {
+        display: flex;
+        padding: 15px;
+        border-top: 1px solid #ddd;
+        gap: 10px;
+    }
+
+        .chat-input input {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 25px;
+            outline: none;
+        }
+
+        .chat-input button {
+            padding: 10px 20px;
+            border: none;
+            background: #0084ff;
+            color: white;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+</style>
+
+<div class="chat-wrapper">
+    <div class="chat-box" id="chatBox">
+        <!-- Messages will be injected here -->
+    </div>
+
+    <div class="chat-input">
+        <input type="text" id="prompt" placeholder="Nhập câu hỏi..." />
+        <button onclick="sendMessage()">Gửi</button>
+    </div>
+</div>
+
+<script>
+    const chatBox = document.getElementById("chatBox");
+    const promptInput = document.getElementById("prompt");
+    let messages = [];
+
+    function renderMessages() {
+        chatBox.innerHTML = "";
+
+        messages.forEach(msg => {
+            const div = document.createElement("div");
+            div.classList.add("message", msg.role);
+
+            const avatar = document.createElement("div");
+            avatar.classList.add("avatar");
+
+            const text = document.createElement("div");
+            text.classList.add("text");
+            text.innerText = msg.content;
+
+            div.appendChild(avatar);
+            div.appendChild(text);
+            chatBox.appendChild(div);
+        });
+
+        chatBox.scrollTop = chatBox.scrollHeight; // Auto scroll to bottom
+    }
+
+    async function sendMessage() {
+        const prompt = promptInput.value.trim();
+        if (!prompt) return;
+
+        // Add user message
+        messages.push({ role: "user", content: prompt });
+        promptInput.value = "";
+        renderMessages();
+
+        // Add temporary AI loading bubble
+        messages.push({ role: "ai", content: "..." });
+        renderMessages();
+
+        const res = await fetch('/Gemini/Ask', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ prompt })
+        });
+
+        const data = await res.json();
+
+        // Replace loading with actual response
+        messages.pop();
+        messages.push({ role: "ai", content: data.responseText });
+        renderMessages();
+    }
+
+    promptInput.addEventListener("keydown", function (e) {
+        if (e.key === "Enter") sendMessage();
+    });
+</script>

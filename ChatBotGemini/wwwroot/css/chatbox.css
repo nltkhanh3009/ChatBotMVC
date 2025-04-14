@@ -1,0 +1,141 @@
+﻿/* Nút mở/đóng chính */
+#chatbox-toggle-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Container chính của chatbox */
+#gemini-chatbox {
+    position: fixed;
+    bottom: 70px; /* Vị trí phía trên nút toggle */
+    right: 20px;
+    width: 320px;
+    height: 450px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Ẩn nội dung tràn */
+    z-index: 1000;
+    /* Mặc định ẩn đi */
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(20px); /* Hiệu ứng trượt lên */
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+}
+
+    /* Lớp để hiển thị chatbox */
+    #gemini-chatbox.visible {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+
+#chatbox-header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#chatbox-close-btn {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #555;
+}
+
+#chatbox-messages {
+    flex-grow: 1; /* Chiếm hết không gian còn lại */
+    padding: 10px;
+    overflow-y: auto; /* Cho phép cuộn khi tin nhắn nhiều */
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column; /* Tin nhắn xếp chồng lên nhau */
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border-radius: 15px;
+    max-width: 80%;
+    word-wrap: break-word; /* Tự xuống dòng nếu quá dài */
+}
+
+.user-message {
+    background-color: #007bff;
+    color: white;
+    align-self: flex-end; /* Tin nhắn người dùng căn phải */
+    border-bottom-right-radius: 5px; /* Bo góc khác một chút */
+}
+
+.bot-message {
+    background-color: #e9e9eb;
+    color: #333;
+    align-self: flex-start; /* Tin nhắn bot căn trái */
+    border-bottom-left-radius: 5px;
+}
+
+    /* Hiển thị thinking indicator */
+    .bot-message.thinking::after {
+        content: '...';
+        display: inline-block;
+        animation: typing 1s steps(3, end) infinite;
+    }
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 1em
+    }
+    /* Điều chỉnh độ rộng của dấu ... */
+}
+
+
+#chatbox-input-area {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+}
+
+#chatbox-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+#chatbox-send-btn {
+    padding: 8px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+    #chatbox-send-btn:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }

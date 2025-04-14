@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "ChatBotGemini.Controllers.ChatApiController",
+    "Method": "PostMessage",
+    "RelativePath": "api/chat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "ChatBotGemini.Controllers.ChatInput",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
